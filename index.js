@@ -16,17 +16,14 @@ function divide(a, b) {
 
 function inc(n) {
   return n+= 1
-
 }
 
 function dec(n) {
-  var num=n--
-  return num
+  return n-=1
 }
 
 function makeInt(n) {
-  var num= parseInt(n)
-  return num
+  return parseInt(n)
 }
 
 function makeInt(n) {
