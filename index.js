@@ -40,6 +40,6 @@ function preserveDecimal(n){
 }
 
 function preserveDecimal(n){
-  return isNaN(parseFloat("n"))
+  return parseFloat("n")
 
 }
