@@ -13,3 +13,19 @@ function multiply(a, b) {
 function divide(a, b) {
   return a/b
 }
+
+function inc(n) {
+  n++
+}
+
+function dec(n) {
+  n--
+}
+
+function makeInt(n) {
+  parseInt(n)
+}
+
+function makeInt(n) {
+  parseInt(n, 10)
+}
