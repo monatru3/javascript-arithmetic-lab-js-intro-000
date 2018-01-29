@@ -15,19 +15,24 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return n++
+  var num=n++
+  return num
+
 }
 
 function dec(n) {
-  return n--
+  var num=n--
+  return num
 }
 
 function makeInt(n) {
-  return parseInt(n)
+  var num= parseInt(n)
+  return num
 }
 
 function makeInt(n) {
-  return parseInt(n, 10)
+  var num= parseInt(n, 10)
+  return num
 }
 
 function makeInt(n) {
